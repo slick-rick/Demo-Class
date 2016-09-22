@@ -1,4 +1,7 @@
 //Implementation File
+#include "MyClass.h"
+#include <string>
+using namespace std;
 
 void MyClass::setNum (int v)
 {
@@ -20,12 +23,12 @@ string MyClass::getRoom ()
   return room;
 }
 
-void MyClass::setfun (bool y)
+void MyClass::setFun (bool y)
 {
      fun = y;
 }
 
-bool MyClass::getfun ()
+bool MyClass::getFun ()
 {
   return fun;
 }

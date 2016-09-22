@@ -1,4 +1,7 @@
 //Header File
+#include <string>
+using namespace std;
+
 class MyClass
 {
    private:
@@ -13,6 +16,6 @@ class MyClass
     void setRoom (string);
     int getRoom ();
 
-    void setfun (bool);
-    int getfun ();
-}
+    void setFun (bool);
+    int getFun ();
+};

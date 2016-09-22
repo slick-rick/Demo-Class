@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
  MyClass myvar;
- Myclass myvar2;
+ MyClass myvar2;
  int var = 10;
  string str;
 
