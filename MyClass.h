@@ -10,12 +10,12 @@ class MyClass
      bool fun;
 
    public:
-    void setNum(int);
+    void setNum(int v);
     int getNum();
 
-    void setRoom (string);
+    void setRoom (string v);
     int getRoom ();
 
-    void setFun (bool);
+    void setFun (bool x);
     int getFun ();
 };
