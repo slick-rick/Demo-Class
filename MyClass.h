@@ -14,8 +14,8 @@ class MyClass
     int getNum();
 
     void setRoom (string v);
-    int getRoom ();
+    string getRoom ();
 
     void setFun (bool x);
-    int getFun ();
+    bool getFun ();
 };
