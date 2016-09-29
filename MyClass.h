@@ -13,6 +13,7 @@ class MyClass
     MyClass();//Constructor
     MyClass (int n , string s);
     MyClass (int n);
+    MyClass (string v);// My own constructor
 
     //Destructor
     ~MyClass();

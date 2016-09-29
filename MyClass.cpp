@@ -19,6 +19,12 @@ MyClass::MyClass(int n)
    num = n;
 }
 
+//My Own constructor
+MyClass::MyClass(string v)
+{
+   room = v;
+}
+
 //Destructor
 MyClass::~MyClass()
 {

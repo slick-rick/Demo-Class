@@ -24,8 +24,9 @@ int main()
  myvar.getNum(); 
 
  MyClass();
- MyClass( 54, dov);
+ MyClass( 54, "dov");
  MyClass( 20);
+ MyClass("It works!");
 
  cout<<myvar.getNum()<<endl;
  cout<<myvar.getRoom()<<endl;
