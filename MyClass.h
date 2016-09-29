@@ -5,11 +5,18 @@ using namespace std;
 class MyClass
 {
    private:
-    int num;
-     string room;
-     bool fun;
+    int num=0;
+     string room="";
+     bool fun=true;
 
    public:
+    MyClass();//Constructor
+    MyClass (int n , string s);
+    MyClass (int n);
+
+    //Destructor
+    ~MyClass();
+
     void setNum(int v);
     int getNum();
 

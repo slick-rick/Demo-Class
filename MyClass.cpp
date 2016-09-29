@@ -2,12 +2,35 @@
 #include "MyClass.h"
 #include <string>
 using namespace std;
+//constructors
+MyClass::MyClass()
+{
 
+}
+
+MyClass::MyClass(int n, string s)
+{
+   num =n;
+   room = s;
+}
+
+MyClass::MyClass(int n)
+{
+   num = n;
+}
+
+//Destructor
+MyClass::~MyClass()
+{
+
+}
+
+//Mutator
 void MyClass::setNum (int v)
 {
     num = v;
 }
-
+//Accessor
 int MyClass::getNum ()
 {
   return num;
